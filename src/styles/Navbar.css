@@ -1,0 +1,120 @@
+.navbar-container {
+  width: 100%;
+  padding: 0;
+  background-color: #f94d30;
+}
+
+.navbar {
+  padding: 0;
+}
+.navbar-left {
+  padding-left: 75px;
+  color: white;
+}
+.navbar span {
+  font-size: 14px;
+}
+.navbar i {
+  padding: 0 5px;
+}
+.navbar-right {
+  padding-right: 75px;
+  color: white;
+}
+.navbar-right i {
+  padding-left: 20px;
+}
+.hr1 {
+  width: 2px;
+  height: 15px;
+  background-color: #f86c5b;
+}
+
+.login {
+  padding-left: 40px;
+}
+
+.Brand {
+  margin: 0;
+  padding-left: 75px;
+  color: white;
+}
+.Brand i {
+  font-size: 38px;
+}
+.wrap-search {
+  position: relative;
+  width: 100%;
+  height: 40px;
+  background-color: #ffffff;
+  border-radius: 6px;
+}
+
+.wrap-icon-s {
+  color: white;
+  position: absolute;
+  background: linear-gradient(-180deg, #f53d2d, #f63);
+  border-radius: 3px;
+  width: 60px;
+  height: 87%;
+  right: 4px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-control {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  border: none;
+  background-color: transparent;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-radius: 1px;
+}
+
+.icon-shop {
+  width: 50px;
+  height: 50px;
+  margin-left: 40px;
+}
+
+.brand-img {
+  width: 45px;
+  height: 55px;
+}
+
+.text-brand {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.under-input span {
+  font-size: 12px;
+  font-weight: 100;
+}
+
+.wrap-navbar-input {
+  margin-left: 50px;
+  width: 67%;
+}
+.recommend {
+  margin-bottom: 10px;
+}
+.recommend span {
+  font-size: 13px;
+  color: white;
+  margin-right: 20px;
+}
+.cart {
+  color: white;
+  font-size: 35px;
+  margin-left: 40px;
+}
