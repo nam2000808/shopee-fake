@@ -1,0 +1,41 @@
+.box {
+  display: flex;
+  justify-content: center;
+}
+.categories {
+  background-color: #ffffff;
+  position: relative;
+
+  background-color: #f7f7f7;
+  width: calc(100% - 150px);
+  margin-left: 75px;
+  margin-right: 75px;
+}
+
+.categories-container {
+  display: grid;
+  grid-template-columns: repeat(13, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  overflow-x: scroll;
+}
+
+.categories h5 {
+  color: black;
+  font-weight: 500;
+}
+
+.categories p {
+  font-size: 14px;
+}
+
+.card-categories {
+  padding: 10px 5px;
+  grid-row: 1;
+  width: 100px;
+  height: 140px;
+  border: 1px solid #c2c2c2;
+}
+
+.card-categories:nth-child(n + 14) {
+  grid-row: 2;
+}
