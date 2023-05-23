@@ -36,7 +36,7 @@ const Categories = () => {
     <div class="box">
       <div class="row mx-0 mt-1 categories">
         <h5 class="p-4">DANH MỤC</h5>
-        <div class="d-flex categories-container">
+        <div class="categories-container">
           <div class="d-flex flex-column align-items-center card-categories">
             <div class="wrap-img">
               <img class="w-100 h-100" src={categories1} alt="" />
